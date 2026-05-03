@@ -49,6 +49,7 @@ graph TD;
 
 
 📂 Repository Structure
+'''
 
 endsley-solar-forecaster/
 ├── data/
