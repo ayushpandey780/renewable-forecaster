@@ -31,6 +31,7 @@ The **Endsley Solar Forecaster** solves this by establishing a **"No-API" data p
 ---
 
 ## 🏗️ System Architecture
+
 ```mermaid
 graph TD;
     A[Public Web / Meteorological Data] -->|No-API Scraper| B(trafilatura Text Extraction);
@@ -44,6 +45,9 @@ graph TD;
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style F fill:#bbf,stroke:#333,stroke-width:2px
     style G fill:#bfb,stroke:#333,stroke-width:2px
+
+📂 Repository Structure
+
 endsley-solar-forecaster/
 ├── data/
 │   ├── raw/                  # Scraped live telemetry (CSV)
@@ -60,15 +64,17 @@ endsley-solar-forecaster/
 ├── requirements.txt          # Python dependencies
 └── README.md
 
-Quick Start / Installation
+🚀 Quick Start / Installation
 1. Clone the repository and navigate to the directory:
 
 git clone [https://github.com/YOUR-USERNAME/renewable-forecaster.git](https://github.com/YOUR-USERNAME/renewable-forecaster.git)
 cd renewable-forecaster
+
 2. Create a virtual environment and install dependencies:
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+
 3. Run the live prediction engine:
 python predict.py
 
