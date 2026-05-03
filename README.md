@@ -46,6 +46,7 @@ graph TD;
     style F fill:#bbf,stroke:#333,stroke-width:2px
     style G fill:#bfb,stroke:#333,stroke-width:2px
 
+
 📂 Repository Structure
 
 endsley-solar-forecaster/
