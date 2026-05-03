@@ -73,6 +73,7 @@ endsley-solar-forecaster/
 1. Clone the repository and navigate to the directory:
 
 git clone [https://github.com/YOUR-USERNAME/renewable-forecaster.git](https://github.com/YOUR-USERNAME/renewable-forecaster.git)
+
 cd renewable-forecaster
 
 2. Create a virtual environment and install dependencies:
