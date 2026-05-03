@@ -45,12 +45,13 @@ graph TD;
     style A fill:#f9f,stroke:#333,stroke-width:2px
     style F fill:#bbf,stroke:#333,stroke-width:2px
     style G fill:#bfb,stroke:#333,stroke-width:2px
-'''
+```
 
+---
 
-📂 Repository Structure
-'''
+## 📂 Repository Structure
 
+```text
 endsley-solar-forecaster/
 ├── data/
 │   ├── raw/                  # Scraped live telemetry (CSV)
@@ -66,6 +67,7 @@ endsley-solar-forecaster/
 ├── predict.py                # Core execution & inference engine
 ├── requirements.txt          # Python dependencies
 └── README.md
+```
 
 🚀 Quick Start / Installation
 1. Clone the repository and navigate to the directory:
